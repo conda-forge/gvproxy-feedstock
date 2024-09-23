@@ -1,5 +1,5 @@
 {% set name = "gvproxy" %}
-{% set version = "0.7.2" %}
+{% set version = "0.7.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/containers/gvisor-tap-vsock/archive/v{{ version }}.tar.gz
-  sha256: 2163287ba1df33d9aba905888f271dc997d04fd3027f1c1f0c354d6045e07425
+  sha256: d635bc55dbb97cf2a469427fb84b7a90f37540f14b090c21356cce2e549b46e0
 
 build:
   number: 0
