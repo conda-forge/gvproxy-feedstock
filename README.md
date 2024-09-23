@@ -3,21 +3,6 @@ About gvproxy-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/gvproxy-feedstock/blob/main/LICENSE.txt)
 
-
-About gvproxy
--------------
-
-Home: https://github.com/containers/gvisor-tap-vsock
-
-Package license: Apache-2.0
-
-Summary: A new network stack based on gVisor
-
-Development: https://github.com/containers/gvisor-tap-vsock
-
-About gvproxy
--------------
-
 Home: https://github.com/containers/gvisor-tap-vsock
 
 Package license: Apache-2.0
@@ -30,7 +15,14 @@ Current build status
 ====================
 
 
-<table>
+<table><tr>
+    <td>Travis</td>
+    <td>
+      <a href="https://app.travis-ci.com/conda-forge/gvproxy-feedstock">
+        <img alt="linux" src="https://img.shields.io/travis/com/conda-forge/gvproxy-feedstock/main.svg?label=Linux">
+      </a>
+    </td>
+  </tr>
     
   <tr>
     <td>Azure</td>
@@ -51,10 +43,31 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>linux_aarch64</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=23449&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gvproxy-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_ppc64le</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=23449&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gvproxy-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>osx_64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=23449&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gvproxy-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=23449&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gvproxy-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_" alt="variant">
                 </a>
               </td>
             </tr><tr>
