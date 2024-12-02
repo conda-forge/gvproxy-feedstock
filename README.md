@@ -3,6 +3,21 @@ About gvproxy-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/gvproxy-feedstock/blob/main/LICENSE.txt)
 
+
+About gvproxy
+-------------
+
+Home: https://github.com/containers/gvisor-tap-vsock
+
+Package license: Apache-2.0
+
+Summary: A new network stack based on gVisor
+
+Development: https://github.com/containers/gvisor-tap-vsock
+
+About gvproxy
+-------------
+
 Home: https://github.com/containers/gvisor-tap-vsock
 
 Package license: Apache-2.0
@@ -15,14 +30,7 @@ Current build status
 ====================
 
 
-<table><tr>
-    <td>Travis</td>
-    <td>
-      <a href="https://app.travis-ci.com/conda-forge/gvproxy-feedstock">
-        <img alt="linux" src="https://img.shields.io/travis/com/conda-forge/gvproxy-feedstock/main.svg?label=Linux">
-      </a>
-    </td>
-  </tr>
+<table>
     
   <tr>
     <td>Azure</td>
