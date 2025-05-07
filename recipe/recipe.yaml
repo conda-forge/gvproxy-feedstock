@@ -1,5 +1,5 @@
 context:
-  version: "0.8.5"
+  version: "0.8.6"
 
 package:
   name: gvproxy
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/containers/gvisor-tap-vsock/archive/v${{ version }}.tar.gz
-  sha256: 549dcb319fdd9813eba525bd67ad224a4b561211a940cbdc0e2c94bd2b59b9c9
+  sha256: eb08309d452823ca7e309da2f58c031bb42bb1b1f2f0bf09ca98b299e326b215
 
 build:
   number: 0
@@ -30,8 +30,7 @@ about:
     - license-files_gvproxy/
     - if: win
       then: license-files_win-sshproxy/
-    - if: not win
-      then: license-files_qemu-wrapper/
+      else: license-files_qemu-wrapper/
     - if: linux
       then: license-files_vm/
   summary: A new network stack based on gVisor
