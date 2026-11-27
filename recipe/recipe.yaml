@@ -1,5 +1,5 @@
 context:
-  version: "0.9.0"
+  version: "0.9.1"
 
 package:
   name: gvproxy
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/containers/gvisor-tap-vsock/archive/v${{ version }}.tar.gz
-  sha256: b83e6049623845f626aa09720ba162e630188f3a5d539d5a773457bc5ab61023
+  sha256: ba0e775c4126c2a3bb00b1fd3c79eb85bb46ff11c2b39e5c6abafa08272bc6a7
 
 build:
   number: 0
